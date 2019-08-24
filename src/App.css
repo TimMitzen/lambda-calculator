@@ -1,0 +1,30 @@
+.spButton,
+.opButton,
+.numberButton {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  
+}
+
+.numberButton {
+   background-color: navy;
+   color:white;
+}
+
+.opButton {
+   background-color:lightblue;
+   color:white;
+}
+
+.spButton{
+   background-color: dodgerblue;
+   color: white;
+}
+
+.App {
+   color: white;
+   background-color: darkred;
+   width: 450px;
+   height: 400px;
+}
