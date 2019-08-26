@@ -1,10 +1,10 @@
 import React from "react";
 
 const Display = (props) => {
-  return <div className ="display">{
+  return <button className ="display">{
     props.text
     
-    /* Display any props data here */}</div>;
+    /* Display any props data here */}</button>;
 
 };
 

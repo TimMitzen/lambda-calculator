@@ -39,9 +39,17 @@ function App() {
       <Logo />
       <div className="App">
       <Display  text={value}/>
+      <div className = "buttons">
+      <div className="nBtn">
       <Numbers add={add} />
+      </div>
+      <div className="oBtn">
       <Operators addOperate ={addOperate}/>
+      </div>
+      <div className="sBtn">
       <Specials clear={clear}/>
+      </div>
+      </div>
       </div>
     </div>
   );

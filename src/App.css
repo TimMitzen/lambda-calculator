@@ -1,46 +1,79 @@
-.spButton,
-.opButton,
-.numberButton {
- 
-  border-radius: 50%;
-  width: 75px;
-  height: 75px;
-  
+.buttons {
+   display:flex;
+
+   
 }
 
-.numberButton {
-   background-color: navy;
-   color:white;
-   font-size: 2rem;
-}
+   
 
-.opButton {
-   background-color:lightblue;
+.oBtn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+   /* background-color:lightblue; */
    color:black;
    font-size: 2rem;
 }
+.oBBtn, 
+.sBBtn,
+.nBBtn {
+   border-radius: 50%;
+   width: 75px;
+   height: 75px;
+   margin: 5px;
+   font-size: 2rem;
+   }
 
-.spButton{
-   background-color: dodgerblue;
+.sBtn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background-color: dodgerblue; */
    color: black;
    font-size: 2em;
+   
 }
-
+.nBtn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 9px 20px;
+   
+}
 .container {
+  
+   align-items: center;
    color: white;
    background-color: darkred;
    width: 400px;
-   height: auto;
+   height: 650px;
 }
 
 .display {
    display:flex;
+   justify-content: flex-end;
    width: 100%;
-   height: 40%;
-   /* border-radius: 25%; */
+   height: 70px;
+   border-radius: 70px; 
    background-color: black;
    color: white;
-   text-align: center;
+   align-items: center;
    font-size: 2rem;
+   margin-top: 10px;
+  }
 
-}
+  .oBBtn {
+     background-color: #57877F;
+     color: white
+  }
+
+  .nBBtn {
+     background-color: #23399B;
+     color: white;
+  }
+
+  .sBBtn{
+     background-color: #4C62C4;
+     color: white;
+  }
